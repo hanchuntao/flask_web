@@ -1,0 +1,12 @@
+<html>
+  <head>
+      <title>模板演示</title>
+  </head>
+  <body>
+      <ul id="navigation">
+         {% for item in href_list %}
+         <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+         {% endfor %}
+       </ul>
+  </body>
+</html>

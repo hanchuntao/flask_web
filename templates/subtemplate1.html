@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}首页{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .important { color: #336699; }
+  </style>
+{% endblock %}
+{% block content %}
+  <h1>首页内容</h1>
+  <p class="important">
+    欢迎来到Python大全网站.
+{% endblock %}
